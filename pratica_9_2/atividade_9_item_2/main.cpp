@@ -1,3 +1,19 @@
+/*
+
+Program: [Empresa Management System in C++]
+
+Author: [Fabiana Queren]
+
+Date: [10/06/2025]
+
+Description: [This C++ program implements a simple company management system that includes classes for managing people, employees, and companies. It demonstrates inheritance and polymorphism by allowing a `MicroEmpreendedor` to inherit from both `Pessoa` and `Empresa`. The program creates instances of these classes, performs operations like hiring and paying employees, and displays their information.]
+
+License: [CC-BY]
+
+*/
+
+
+
 #include "include/pessoa.hpp"
 #include "include/empregado.hpp"
 #include "include/empresa.hpp"
