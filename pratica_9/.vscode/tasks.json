@@ -1,0 +1,34 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc.exe build active file",
+			"command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${workspaceFolder}\\empresa_1\\include\\pessoa.hpp",
+                "${workspaceFolder}\\empresa_1\\include\\empresa.hpp",
+                "${workspaceFolder}\\empresa_1\\include\\empregado.hpp",
+                "${workspaceFolder}\\empresa_1\\empregado.cpp",
+                "${workspaceFolder}\\empresa_1\\empresa.cpp",
+                "${workspaceFolder}\\empresa_1\\pessoa.cpp",
+                "${workspaceFolder}\\empresa_1\\main.cpp",
+				"-o",
+				"${fileDirname}\\${fileBasenameNoExtension}.exe"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: C:\\msys64\\ucrt64\\bin\\gcc.exe"
+		}
+	]
+}
