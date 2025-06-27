@@ -13,7 +13,7 @@ Criar ou abrir o projeto PlatformIO:
 
 Configurar o arquivo platformio.ini:
 
---- Adicione ou substitua o conteúdo pelo seguinte trecho://
+--- Adicione ou substitua o conteúdo pelo seguinte trecho:
 [env:uno]
 platform = atmelavr
 board = uno
