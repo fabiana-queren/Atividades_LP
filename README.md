@@ -12,6 +12,7 @@ Criar ou abrir o projeto PlatformIO:
 --- Dentro da pasta do projeto, localizar o arquivo platformio.ini.
 
 Configurar o arquivo platformio.ini:
+
 --- Adicione ou substitua o conteúdo pelo seguinte trecho://
 [env:uno]
 platform = atmelavr
