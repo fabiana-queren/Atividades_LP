@@ -27,7 +27,7 @@ void setup() {
 void loop() {
   int valor = lerLuz();  // Lê o sensor e imprime, usando o pino analógico A0
 
-  Serial.print("Luz: ");
+  Serial.print("Luz do ambiente: ");
   Serial.println(valor);
 
   controlarLED(valor);  // Controla o LED com base na luz
